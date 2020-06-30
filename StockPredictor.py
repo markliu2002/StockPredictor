@@ -7,15 +7,15 @@ import pandas_datareader.data as pdr # Functions from pandas_datareader.data ext
 import numpy as np # numpy allows us to use arrays
 from sklearn import preprocessing # sklearn = sci-kit learn (machine learning library). We import preprocessing from it so the macine can easily parse it 
 from sklearn.model_selection import train_test_split # train_test_split used to create our training and testing samples. Makes it easy to split/shuffle data
-from sklearn.linear_model import LinearRegression # import linear regression algorithm
 
 
-from sklearn.tree import DecisionTreeRegressor ###################################################################################################################################
+from sklearn.linear_model import LinearRegression 
+from sklearn.tree import DecisionTreeRegressor 
 from sklearn.svm import SVR
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.ensemble import GradientBoostingRegressor
 
-from sklearn import svm # import support vector machines, also used for regression
+
 import datetime # import datetime to work with datetime objects
 import matplotlib.pyplot as plt # import matplotlib for graphing
 from matplotlib import style # import style to style the graphs
