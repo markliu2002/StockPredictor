@@ -72,7 +72,7 @@ accuracy = clf.score(X_test, y_test) # predictor.score(X,Y) internally calculate
 
 
 # PREDICT
-prediction_set = clf.predict(X_lately) # predict with the X_lately variable which contains the most recent features
+prediction_set = clf.predict(X_lately) # predict against X_lately
 print(prediction_set) # the array of predictions (The Adj Close of the next __ days)
 print(accuracy) 
 print(prediction_out) # num of days to predict
