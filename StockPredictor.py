@@ -1,6 +1,6 @@
-# Replace line 16 with the ticker of the stock you want to predict (yahoo finance tickers)
-# Replace line 17 with the number of days you want to predict 
-# Uncomment lines 113 to 117 with desired ml algorithm
+# Replace line 21 with the ticker
+# Replace line 22 with the number of days you want to predict 
+# Uncomment lines 64-68 with desired ml algorithm
 
 import pandas as pd # for dataframes
 import pandas_datareader.data as pdr # data reader to create dataframe from yahoo finance
